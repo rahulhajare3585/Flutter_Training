@@ -20,4 +20,13 @@ void main() {
   mapName["CanLocateToOffice"] = true;
 
   print(mapName);
+
+  print(mapName.isNotEmpty);
+  print(mapName.isEmpty);
+  print(mapName.keys);
+  print(mapName.values);
+  print(mapName.containsKey('Name'));
+  print(mapName.containsValue(true));
+  print(mapName.remove('CanLocateToOffice'));
+  print(mapName);
 }
