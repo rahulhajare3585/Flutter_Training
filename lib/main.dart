@@ -1,24 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:training_app/widgets/container_decoration.dart';
 import 'package:training_app/widgets/list_view_separator.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const FlutterApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
+class FlutterApp extends StatelessWidget {
+  const FlutterApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        primarySwatch: Colors.red,
       ),
-      home: const ListViewSeparator(title: "Center widget"),
+      home: const ContainerDecoration(title: "Center widget"),
     );
   }
 }

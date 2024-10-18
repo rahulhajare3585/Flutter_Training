@@ -16,7 +16,7 @@ class _ListviewBuilderWidget extends State<ListviewBuilderWidget> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-          title: Text("Text Widget"),
+          title: Text("list view builder"),
         ),
         body: ListView.builder(
           itemBuilder: (context, index) {

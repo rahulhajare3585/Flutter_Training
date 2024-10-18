@@ -14,8 +14,9 @@ class _ListViewSeparator extends State<ListViewSeparator> {
     var arrNames = ['Raman', 'Ramanujan', 'Rahul', 'Rajesh', 'Ram', 'Rahim'];
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-          title: Text("Text Widget"),
+          backgroundColor: const Color.fromARGB(255, 39, 32, 54),
+          title: Text("List view separator",
+              style: TextStyle(color: Colors.white)),
         ),
         body: ListView.separated(
           itemBuilder: (context, index) {
