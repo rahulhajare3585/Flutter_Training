@@ -12,6 +12,13 @@ void main() {
 }
 
 class myClass {
+  //special function - constructor
+
+  myClass() {
+    //
+    print("my class object is created");
+  }
+
   void printName() {
     print("flutter function");
   }

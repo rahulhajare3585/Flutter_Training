@@ -17,7 +17,16 @@ void main() {
   names[2] = "Ranjan";
 
   names.removeLast();
+
+  tempList.remove(40);
+  names.removeAt(1);
   print(names);
   tempList.replaceRange(1, 3, [1, 2, 3, 4]);
   print(tempList);
+  print("Length : ${names.length}");
+  print("Reversed : ${names.reversed}");
+  print("First : ${names.first}");
+  print("Last : ${names.last}");
+  print("Empty : ${names.isEmpty}");
+  print("Element at 2nd index: ${names.elementAt(2)}");
 }
