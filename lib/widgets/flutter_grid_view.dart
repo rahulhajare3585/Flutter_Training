@@ -90,7 +90,11 @@ class _FlutterGridView extends State<FlutterGridView> {
                 color: colorArray[7],
               ),
             ],
-          )
+          ),
+
+          // GridView.builder( itemBuilder: (context,index){
+          //   return Container(color:  arrColor[index],)
+          // })
         ],
       ),
     );

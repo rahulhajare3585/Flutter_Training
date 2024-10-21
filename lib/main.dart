@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:training_app/widgets/flutter_grid_view.dart';
-import 'package:training_app/widgets/input_widgets/datetime_picker_widget.dart';
+import 'package:training_app/functions/callback_functions.dart';
+import 'package:training_app/widgets/stack_widgets.dart';
 
 void main() {
   runApp(const FlutterApp());
@@ -22,7 +22,7 @@ class FlutterApp extends StatelessWidget {
                 fontWeight: FontWeight.w700),
             headlineSmall: TextStyle(fontSize: 10, fontFamily: 'Agdasima')),
       ),
-      home: const FlutterGridView(title: "Center widget"),
+      home: const StackWidgets(title: "Center widget"),
     );
   }
 }
