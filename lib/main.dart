@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:training_app/widgets/container_decoration.dart';
+import 'package:training_app/widgets/expanded_widget.dart';
 import 'package:training_app/widgets/list_view_separator.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class FlutterApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: const ContainerDecoration(title: "Center widget"),
+      home: const ExpandedWidget(title: "Center widget"),
     );
   }
 }
