@@ -20,8 +20,8 @@ class _StackWidgets extends State<StackWidgets> {
               color: Colors.green,
             ),
             Positioned(
-              top: 50,
-              right: 50,
+              top: 20,
+              left: 20,
               child: Container(
                 height: 200,
                 width: 200,
