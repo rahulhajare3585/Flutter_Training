@@ -13,13 +13,14 @@ class _ConstrainedBoxWidget extends State<ConstrainedBoxWidget> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue,
-          title: Text('Constrained box '),
+          title: const Text('Constrained box '),
         ),
         body: ConstrainedBox(
-          constraints: BoxConstraints(
+          constraints: const BoxConstraints(
               minHeight: 100, minWidth: 100, maxHeight: 200, maxWidth: 200),
-          child: Container(
-            color: Colors.red,
+          child: const Text(
+            'Hello Wold Hello Wold Hello Wold Hello Wold Hello Wold Hello Wold Hello Wold Hello Wold Hello Wold',
+            style: TextStyle(fontSize: 21, overflow: TextOverflow.fade),
           ),
         ));
   }
