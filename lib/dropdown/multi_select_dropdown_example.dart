@@ -17,11 +17,13 @@ class _MultiSelectDropdownWithCustomItemsState
 
 // Surgeon List
   final List<String> surgeonList = [
-    "Dr. John Doe",
-    "Dr. Jane Smith",
-    "Dr. Emily White",
-    "Dr. Michael Brown",
-    "Dr. Olivia Green"
+    "Sidheshwar Bagate",
+    "Jis Thottan",
+    "Rahul Hajre",
+    "Pranav Hatole",
+    "Janardhan Kakade",
+    "Krushna Sangale"
+        "Raghav Naphade"
   ];
 
   List<Map<String, String>> _selectedOptions = [];

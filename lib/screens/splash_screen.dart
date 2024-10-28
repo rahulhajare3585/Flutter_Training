@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:training_app/dropdown/dropdown_landing_screen.dart';
-import 'package:training_app/dropdown/multi_select_dropdown_example.dart';
+import 'package:training_app/Animations/flutter_animated_cross_fade_widget.dart';
+import 'package:training_app/Animations/hero_animation_widget.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => DropdownLandingScreen(),
+            builder: (context) => HeroAnimationWidget(),
           ));
     });
   }
